@@ -3,6 +3,9 @@
       <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
       <input v-model="data.email" type="email" class="form-control" placeholder="name@example.com" required>
       <input v-model="data.password" type="password" class="form-control" placeholder="Password" required>
+      <div class="mb-2">
+          <router-link to="/forgot">Forgot password?</router-link>
+      </div>
       <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
     </form>
 </template>
