@@ -16,7 +16,7 @@ export default {
     async mounted(){
         try {
 
-            const response = await fetch('http://192.168.1.106:8000/api/user', {
+            const response = await fetch('http://localhost:8000/api/user', {
                 headers: {'Content-Type': 'application/json'},
                 credentials: 'include',
                 mode: 'cors'

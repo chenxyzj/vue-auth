@@ -26,7 +26,7 @@ export default {
        methods:{
          async submit() {
             // console.log(this.data)
-            await fetch('http://192.168.1.106:8000/api/register', {
+            await fetch('http://localhost:8000/api/register', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 mode: 'cors',

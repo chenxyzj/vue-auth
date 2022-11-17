@@ -24,7 +24,7 @@ import { useRouter } from "vue-router";
        methods:{
          async submit() {
             console.log(this.data)
-            await fetch('http://192.168.1.106:8000/api/login', {
+            await fetch('http://localhost:8000/api/login', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 credentials: 'include',
